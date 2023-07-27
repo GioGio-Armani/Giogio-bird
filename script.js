@@ -168,4 +168,5 @@ setup();
 img.onload = render;
 document.addEventListener("keydown", () => (gamePlaying = true));
 document.addEventListener("keydown", () => (flight = jump));
-// window.onclick = () => (flight = jump);
+window.onclick = () => (gamePlaying = true);
+window.onclick = () => (flight = jump);
